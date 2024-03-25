@@ -1,0 +1,41 @@
+/* styles.css */
+body {
+    font-family: Optima;
+    background-color: #EBBC8C;
+}
+
+h1 {
+    font-family: Optima;
+    color: rgb(255, 255, 255);
+}
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: #e5d4ba; /* Muted warm tile color */
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .post:hover {
+    background-color: #d6c0a1; /* Darker shade on hovers */
+  }
+  
+  .big-post {
+    grid-column: span 2; /* Make the most recent post span two columns */
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
